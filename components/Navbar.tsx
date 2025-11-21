@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <a href="#hero" className="text-lg font-bold text-cyan-400 tracking-wider">
-            RC PLANE BLUEPRINT
+            F-22 RAPTOR
           </a>
           <div className="hidden lg:flex gap-10">
             {sections.map((section) => (
