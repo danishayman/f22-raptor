@@ -4,7 +4,7 @@
       <div className="container mx-auto text-center">
         <div className="border-4 border-cyan-400/50 p-12 max-w-4xl mx-auto bg-blueprint-blue/10">
           <h1 className="text-5xl md:text-7xl font-bold text-cyan-400 tracking-wider mb-4">
-            DIY RC PLANE
+            F-22 RAPTOR RC AIRCRAFT
           </h1>
           <div className="text-xl md:text-2xl text-cyan-200/80 tracking-widest mb-6">
             TECHNICAL CONSTRUCTION GUIDE
