@@ -7,14 +7,9 @@ import ToolsSection from "@/components/sections/Tools";
 import PlansSection from "@/components/sections/Plans";
 import BuildProcessSection from "@/components/sections/BuildProcess";
 import ElectronicsSection from "@/components/sections/Electronics";
-import FirstFlightSection from "@/components/sections/FirstFlight";
-import TroubleshootingSection from "@/components/sections/Troubleshooting";
-import ModificationsSection from "@/components/sections/Modifications";
 import GallerySection from "@/components/sections/Gallery";
 import WhatILearnedSection from "@/components/sections/WhatILearned";
 import ResourcesSection from "@/components/sections/Resources";
-import FAQSection from "@/components/sections/FAQ";
-import ContactSection from "@/components/sections/Contact";
 
 export default function Home() {
   return (
@@ -28,14 +23,9 @@ export default function Home() {
         <PlansSection />
         <BuildProcessSection />
         <ElectronicsSection />
-        <FirstFlightSection />
-        <TroubleshootingSection />
-        <ModificationsSection />
         <GallerySection />
         <WhatILearnedSection />
         <ResourcesSection />
-        <FAQSection />
-        <ContactSection />
       </main>
       <Footer />
     </>

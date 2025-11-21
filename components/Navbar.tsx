@@ -9,14 +9,9 @@ export default function Navbar() {
     { id: "plans", label: "Plans" },
     { id: "build-process", label: "Build Process" },
     { id: "electronics", label: "Electronics" },
-    { id: "first-flight", label: "First Flight" },
-    { id: "troubleshooting", label: "Troubleshooting" },
-    { id: "modifications", label: "Modifications" },
     { id: "gallery", label: "Gallery" },
     { id: "what-i-learned", label: "What I Learned" },
     { id: "resources", label: "Resources" },
-    { id: "faq", label: "FAQ" },
-    { id: "contact", label: "Contact" },
   ];
 
   return (
@@ -26,7 +21,7 @@ export default function Navbar() {
           <a href="#hero" className="text-lg font-bold text-cyan-400 tracking-wider">
             RC PLANE BLUEPRINT
           </a>
-          <div className="hidden lg:flex gap-6">
+          <div className="hidden lg:flex gap-10">
             {sections.map((section) => (
               <a
                 key={section.id}
