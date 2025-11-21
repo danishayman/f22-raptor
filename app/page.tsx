@@ -18,11 +18,11 @@ export default function Home() {
       <main className="pt-16">
         <HeroSection />
         <WhyIBuiltThisSection />
-        <MaterialsSection />
         <ToolsSection />
+        <MaterialsSection />
+        <ElectronicsSection />
         <PlansSection />
         <BuildProcessSection />
-        <ElectronicsSection />
         <GallerySection />
         <WhatILearnedSection />
         <ResourcesSection />
