@@ -7,11 +7,10 @@ export default function PlansSection() {
     <section id="plans" className="py-12 md:py-20 px-4 bg-blueprint-blue/5">
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Plans" subtitle="Technical drawings and specifications" />
-        <div className="space-y-6">
-          <ImageBlock label="Wing Schematic" aspectRatio="wide" />
-          <ImageBlock label="Fuselage Cross-Section" aspectRatio="video" />
+        <div className="space-y-6 max-w-3xl mx-auto">
+          <ImageBlock src="/plans.jpg" label="F-22 Raptor Plans" aspectRatio="custom" figNumber="02" />
           <TextBlock>
-            <p>Download links and detailed measurements will be provided here.</p>
+            <p>Download links: <a href="https://drive.google.com/drive/folders/16CLa1liDK_uY1aA51o0VirKp5OXex-s8?usp=sharing" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-300 underline">Google Drive Folder</a></p>
           </TextBlock>
         </div>
       </div>
