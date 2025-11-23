@@ -11,7 +11,7 @@ export default function PlansSection() {
           <ImageBlock label="Wing Schematic" aspectRatio="wide" />
           <ImageBlock label="Fuselage Cross-Section" aspectRatio="video" />
           <TextBlock>
-            <p className="text-xs">Download links and detailed measurements will be provided here.</p>
+            <p>Download links and detailed measurements will be provided here.</p>
           </TextBlock>
         </div>
       </div>

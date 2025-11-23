@@ -22,7 +22,7 @@ export default function ImageBlock({
   }[aspectRatio];
 
   return (
-    <div className={`border-2 border-cyan-400/50 bg-blueprint-blue/10 p-4 ${className}`}>
+    <div className={`border-2 border-cyan-400/50 bg-blueprint-blue/10 p-6 ${className}`}>
       <div className={`${aspectClass} border border-dashed border-cyan-400/30 flex items-center justify-center relative overflow-hidden`}>
         {src ? (
           <Image 
@@ -42,13 +42,13 @@ export default function ImageBlock({
             
             {/* Label */}
             <div className="relative z-10 text-center">
-              <div className="text-cyan-400/60 text-xs uppercase tracking-wider">{label}</div>
-              <div className="text-cyan-400/40 text-xs mt-1">[ Blueprint Frame ]</div>
+              <div className="text-cyan-400/60 text-base uppercase tracking-wider">{label}</div>
+              <div className="text-cyan-400/40 text-sm mt-1">[ Blueprint Frame ]</div>
             </div>
           </>
         )}
       </div>
-      <div className="mt-2 text-xs text-cyan-200/40 text-center">FIG. {figNumber} - {label}</div>
+      <div className="mt-3 text-sm text-cyan-200/40 text-center font-semibold">FIG. {figNumber} - {label}</div>
     </div>
   );
 }

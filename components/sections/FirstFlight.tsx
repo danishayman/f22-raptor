@@ -9,8 +9,8 @@ export default function FirstFlightSection() {
         <SectionHeader title="First Flight" subtitle="Pre-flight checks and maiden flight" />
         <div className="space-y-6">
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-3">Pre-Flight Checklist</h3>
-            <ul className="list-disc list-inside space-y-1 text-xs">
+            <h3 className="text-cyan-400 font-bold mb-4 text-xl">Pre-Flight Checklist</h3>
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>Control surface movement check</li>
               <li>CG (Center of Gravity) verification</li>
               <li>Battery charge level</li>

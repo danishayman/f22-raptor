@@ -8,16 +8,16 @@ export default function ResourcesSection() {
         <SectionHeader title="Resources" subtitle="Helpful links and references" />
         <div className="grid md:grid-cols-2 gap-6">
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-3">Online Communities</h3>
-            <ul className="list-disc list-inside space-y-1 text-xs">
+            <h3 className="text-cyan-400 font-bold mb-4 text-xl">Online Communities</h3>
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>RC Groups Forums</li>
               <li>FliteTest Community</li>
               <li>r/radiocontrol</li>
             </ul>
           </TextBlock>
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-3">Suppliers</h3>
-            <ul className="list-disc list-inside space-y-1 text-xs">
+            <h3 className="text-cyan-400 font-bold mb-4 text-xl">Suppliers</h3>
+            <ul className="list-disc list-inside space-y-2 text-base">
               <li>HobbyKing</li>
               <li>Flite Test Store</li>
               <li>Amazon (various)</li>

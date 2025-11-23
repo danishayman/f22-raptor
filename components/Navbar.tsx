@@ -18,7 +18,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0A1A2F]/95 backdrop-blur-sm border-b border-cyan-400/30">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <a href="#hero" className="text-lg font-bold text-cyan-400 tracking-wider">
+          <a href="#hero" className="text-2xl font-bold text-cyan-400 tracking-wider">
             F-22 RAPTOR
           </a>
           <div className="hidden lg:flex gap-10">
@@ -26,13 +26,13 @@ export default function Navbar() {
               <a
                 key={section.id}
                 href={`#${section.id}`}
-                className="text-xs text-cyan-200/80 hover:text-cyan-400 transition-colors uppercase tracking-wide"
+                className="text-sm text-cyan-200/80 hover:text-cyan-400 transition-colors uppercase tracking-wide"
               >
                 {section.label}
               </a>
             ))}
           </div>
-          <button className="lg:hidden text-cyan-400 border border-cyan-400/50 px-3 py-1 text-xs">
+          <button className="lg:hidden text-cyan-400 border border-cyan-400/50 px-4 py-2 text-sm">
             MENU
           </button>
         </div>

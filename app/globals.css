@@ -27,6 +27,8 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-mono), monospace;
   position: relative;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
 /* Blueprint gridline background */
@@ -40,7 +42,7 @@ body::before {
   background-image: 
     linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
     linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
-  background-size: 20px 20px;
+  background-size: 30px 30px;
   pointer-events: none;
   z-index: 0;
 }
