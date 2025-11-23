@@ -4,7 +4,7 @@ import TextBlock from "@/components/TextBlock";
 export default function WhatILearnedSection() {
   return (
     <section id="what-i-learned" className="py-20 px-4">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <SectionHeader title="What I Learned" subtitle="Key takeaways and insights" />
         <TextBlock>
           <div className="space-y-4">

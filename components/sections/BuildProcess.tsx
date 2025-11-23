@@ -5,7 +5,7 @@ import ImageBlock from "@/components/ImageBlock";
 export default function BuildProcessSection() {
   return (
     <section id="build-process" className="py-20 px-4">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Build Process" subtitle="Step-by-step construction guide" />
         <div className="space-y-12">
           <div>

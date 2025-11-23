@@ -4,7 +4,7 @@ import TextBlock from "@/components/TextBlock";
 export default function ToolsSection() {
   return (
     <section id="tools" className="py-20 px-4">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Tools" subtitle="Required equipment and instruments" />
         <TextBlock>
           <div className="grid md:grid-cols-3 gap-6">

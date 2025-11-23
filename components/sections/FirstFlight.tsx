@@ -5,7 +5,7 @@ import ImageBlock from "@/components/ImageBlock";
 export default function FirstFlightSection() {
   return (
     <section id="first-flight" className="py-20 px-4">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <SectionHeader title="First Flight" subtitle="Pre-flight checks and maiden flight" />
         <div className="space-y-6">
           <TextBlock>

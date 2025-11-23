@@ -4,7 +4,7 @@ import TextBlock from "@/components/TextBlock";
 export default function MaterialsSection() {
   return (
     <section id="materials" className="py-20 px-4 bg-blueprint-blue/5">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Materials" subtitle="Complete bill of materials" />
         <div className="grid md:grid-cols-2 gap-6">
           <TextBlock>

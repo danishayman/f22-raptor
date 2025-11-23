@@ -4,7 +4,7 @@ import TextBlock from "@/components/TextBlock";
 export default function ContactSection() {
   return (
     <section id="contact" className="py-20 px-4 bg-blueprint-blue/5">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Contact" subtitle="Get in touch" />
         <TextBlock>
           <div className="text-center space-y-4">

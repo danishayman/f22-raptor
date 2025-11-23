@@ -4,7 +4,7 @@ import TextBlock from "@/components/TextBlock";
 export default function ModificationsSection() {
   return (
     <section id="modifications" className="py-20 px-4">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Modifications" subtitle="Upgrades and customizations" />
         <div className="grid md:grid-cols-2 gap-6">
           <TextBlock>
