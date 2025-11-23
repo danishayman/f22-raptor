@@ -5,6 +5,7 @@ import WhyIBuiltThisSection from "@/components/sections/WhyIBuiltThis";
 import MaterialsSection from "@/components/sections/Materials";
 import ToolsSection from "@/components/sections/Tools";
 import PlansSection from "@/components/sections/Plans";
+import CADImagesSection from "@/components/sections/CADImages";
 import BuildProcessSection from "@/components/sections/BuildProcess";
 import ElectronicsSection from "@/components/sections/Electronics";
 import GallerySection from "@/components/sections/Gallery";
@@ -22,6 +23,7 @@ export default function Home() {
         <MaterialsSection />
         <ElectronicsSection />
         <PlansSection />
+        <CADImagesSection />
         <BuildProcessSection />
         <GallerySection />
         <WhatILearnedSection />
