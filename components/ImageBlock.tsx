@@ -4,7 +4,7 @@ interface ImageBlockProps {
   src?: string;
   label?: string;
   figNumber?: string;
-  aspectRatio?: "video" | "square" | "wide";
+  aspectRatio?: "video" | "square" | "wide" | "custom";
   className?: string;
 }
 
@@ -18,7 +18,8 @@ export default function ImageBlock({
   const aspectClass = {
     video: "aspect-video",
     square: "aspect-square",
-    wide: "aspect-[21/9]"
+    wide: "aspect-[21/9]",
+    custom: "aspect-[1.385/1]"
   }[aspectRatio];
 
   return (
