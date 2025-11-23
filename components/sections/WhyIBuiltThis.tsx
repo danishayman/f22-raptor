@@ -3,7 +3,7 @@ import TextBlock from "@/components/TextBlock";
 
 export default function WhyIBuiltThisSection() {
   return (
-    <section id="why-i-built-this" className="py-20 px-4">
+    <section id="why-i-built-this" className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Why I Built This" subtitle="Project motivation and objectives" />
         <TextBlock>

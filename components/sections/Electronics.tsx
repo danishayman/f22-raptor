@@ -4,10 +4,10 @@ import ImageBlock from "@/components/ImageBlock";
 
 export default function ElectronicsSection() {
   return (
-    <section id="electronics" className="py-20 px-4 bg-blueprint-blue/5">
+    <section id="electronics" className="py-12 md:py-20 px-4 bg-blueprint-blue/5">
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Electronics" subtitle="Avionics and control systems" />
-        <div className="grid md:grid-cols-7 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-7 gap-6">
           <TextBlock className="md:col-span-3">
             <h3 className="text-cyan-400 font-bold mb-4 text-xl">Required Components</h3>
             <ul className="list-disc list-inside space-y-2 text-base">

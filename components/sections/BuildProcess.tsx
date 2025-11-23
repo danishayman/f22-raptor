@@ -4,13 +4,13 @@ import ImageBlock from "@/components/ImageBlock";
 
 export default function BuildProcessSection() {
   return (
-    <section id="build-process" className="py-20 px-4">
+    <section id="build-process" className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Build Process" subtitle="Step-by-step construction guide" />
         <div className="space-y-12">
           <div>
             <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 1: Wing Construction</h3>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ImageBlock label="Wing Assembly" aspectRatio="square" />
               <TextBlock>
                 <p>Detailed instructions for wing construction, including cutting patterns and assembly sequence.</p>
@@ -19,7 +19,7 @@ export default function BuildProcessSection() {
           </div>
           <div>
             <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 2: Fuselage Assembly</h3>
-            <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <TextBlock>
                 <p>Instructions for building the fuselage structure and mounting points.</p>
               </TextBlock>

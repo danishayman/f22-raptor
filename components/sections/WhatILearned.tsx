@@ -3,7 +3,7 @@ import TextBlock from "@/components/TextBlock";
 
 export default function WhatILearnedSection() {
   return (
-    <section id="what-i-learned" className="py-20 px-4">
+    <section id="what-i-learned" className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="What I Learned" subtitle="Key takeaways and insights" />
         <TextBlock>

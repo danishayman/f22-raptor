@@ -3,10 +3,10 @@ import TextBlock from "@/components/TextBlock";
 
 export default function ModificationsSection() {
   return (
-    <section id="modifications" className="py-20 px-4">
+    <section id="modifications" className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Modifications" subtitle="Upgrades and customizations" />
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <TextBlock>
             <h3 className="text-cyan-400 font-bold mb-4 text-xl">Performance Mods</h3>
             <p className="mb-3">Suggestions for improving flight characteristics:</p>

@@ -3,7 +3,7 @@ import TextBlock from "@/components/TextBlock";
 
 export default function TroubleshootingSection() {
   return (
-    <section id="troubleshooting" className="py-20 px-4 bg-blueprint-blue/5">
+    <section id="troubleshooting" className="py-12 md:py-20 px-4 bg-blueprint-blue/5">
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Troubleshooting" subtitle="Common issues and solutions" />
         <div className="space-y-6">

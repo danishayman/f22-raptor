@@ -3,7 +3,7 @@ import TextBlock from "@/components/TextBlock";
 
 export default function FAQSection() {
   return (
-    <section id="faq" className="py-20 px-4">
+    <section id="faq" className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="FAQ" subtitle="Frequently asked questions" />
         <div className="space-y-6">
