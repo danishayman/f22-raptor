@@ -7,8 +7,8 @@ export default function ElectronicsSection() {
     <section id="electronics" className="py-20 px-4 bg-blueprint-blue/5">
       <div className="container mx-auto max-w-4xl">
         <SectionHeader title="Electronics" subtitle="Avionics and control systems" />
-        <div className="grid md:grid-cols-2 gap-6">
-          <TextBlock>
+        <div className="grid md:grid-cols-5 gap-6">
+          <TextBlock className="md:col-span-2">
             <h3 className="text-cyan-400 font-bold mb-3">Required Components</h3>
             <ul className="list-disc list-inside space-y-1 text-xs">
               <li>ESC (Electronic Speed Controller)</li>
@@ -19,7 +19,7 @@ export default function ElectronicsSection() {
               <li>3S 600mAh 40C LiPo Battery</li>
             </ul>
           </TextBlock>
-          <ImageBlock label="Wiring Diagram" aspectRatio="square" />
+          <ImageBlock src="/circuit_image.png" label="Wiring Diagram" figNumber="1" aspectRatio="video" className="md:col-span-3" />
         </div>
       </div>
     </section>
