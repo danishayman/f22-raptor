@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="apple-mobile-web-app-title" content="F-22 Raptor" />
+      </head>
       <body
         className={`${geistMono.variable} antialiased`}
       >
