@@ -6,6 +6,8 @@ interface ImageBlockProps {
   figNumber?: string;
   aspectRatio?: "video" | "square" | "wide" | "custom";
   className?: string;
+  width?: number;
+  height?: number;
 }
 
 export default function ImageBlock({ 
@@ -13,7 +15,9 @@ export default function ImageBlock({
   label = "Image Placeholder",
   figNumber = "XX",
   aspectRatio = "video",
-  className = "" 
+  className = "",
+  width,
+  height
 }: ImageBlockProps) {
   const aspectClass = {
     video: "aspect-video",
@@ -30,6 +34,7 @@ export default function ImageBlock({
             src={src} 
             alt={label} 
             fill 
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-contain"
           />
         ) : (
