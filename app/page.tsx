@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/sections/Hero";
 import WhyIBuiltThisSection from "@/components/sections/WhyIBuiltThis";
@@ -15,7 +14,6 @@ import ResourcesSection from "@/components/sections/Resources";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <main className="pt-16">
         <HeroSection />
         <WhyIBuiltThisSection />

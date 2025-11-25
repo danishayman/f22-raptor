@@ -47,7 +47,7 @@ body::before {
   z-index: 0;
 }
 
-body > * {
+body > :not(nav) {
   position: relative;
   z-index: 1;
 }
