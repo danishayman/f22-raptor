@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-cyan-400/20 text-center">
-          <p className="text-sm text-cyan-200/40">© 2025 DIY RC Plane Guide. All specifications subject to modification.</p>
+          <p className="text-sm text-cyan-200/40">© F-22 Raptor DIY RC Plane. All specifications subject to modification.</p>
         </div>
       </div>
     </footer>
