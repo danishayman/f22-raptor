@@ -3,12 +3,12 @@ import ImageBlock from "@/components/ImageBlock";
 
 export default function GallerySection() {
   const galleryImages = [
-    { src: "/Gallery/1.jpg", label: "Board Cutouts", figNumber: "1" },
-    { src: "/Gallery/2.jpg", label: "Electronic Assembly", figNumber: "2" },
-    { src: "/Gallery/3.jpg", label: "Circuit Assembled", figNumber: "3" },
-    { src: "/Gallery/4.jpg", label: "Complete Setup", figNumber: "4" },
-    { src: "/Gallery/5.jpg", label: "Simulator Training", figNumber: "5" },
-    { src: "/Gallery/6.jpg", label: "First Flight", figNumber: "6" },
+    { src: "/Gallery/1.jpg", label: "Board Cutouts", figNumber: "23" },
+    { src: "/Gallery/2.jpg", label: "Electronic Assembly", figNumber: "24" },
+    { src: "/Gallery/3.jpg", label: "Circuit Assembled", figNumber: "24" },
+    { src: "/Gallery/4.jpg", label: "Complete Setup", figNumber: "25" },
+    { src: "/Gallery/5.jpg", label: "Simulator Training", figNumber: "25" },
+    { src: "/Gallery/6.jpg", label: "First Flight", figNumber: "26" },
   ];
 
   return (
