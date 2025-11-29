@@ -4,7 +4,7 @@ interface ImageBlockProps {
   src?: string;
   label?: string;
   figNumber?: string;
-  aspectRatio?: "video" | "square" | "wide" | "custom";
+  aspectRatio?: "video" | "square" | "wide" | "custom" | "3/4";
   className?: string;
   width?: number;
   height?: number;
@@ -23,7 +23,8 @@ export default function ImageBlock({
     video: "aspect-video",
     square: "aspect-square",
     wide: "aspect-[21/9]",
-    custom: "aspect-[1.385/1]"
+    custom: "aspect-[1.385/1]",
+    "3/4": "aspect-[3/4]"
   }[aspectRatio];
 
   return (
@@ -35,7 +36,7 @@ export default function ImageBlock({
             alt={label} 
             fill 
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            className="object-contain"
+            className="object-cover"
           />
         ) : (
           <>

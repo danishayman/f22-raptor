@@ -2,17 +2,29 @@
 import ImageBlock from "@/components/ImageBlock";
 
 export default function GallerySection() {
+  const galleryImages = [
+    { src: "/Gallery/1.jpg", label: "Board Cutouts", figNumber: "1" },
+    { src: "/Gallery/2.jpg", label: "Electronic Assembly", figNumber: "2" },
+    { src: "/Gallery/3.jpg", label: "Circuit Assembled", figNumber: "3" },
+    { src: "/Gallery/4.jpg", label: "Complete Setup", figNumber: "4" },
+    { src: "/Gallery/5.jpg", label: "Simulator Training", figNumber: "5" },
+    { src: "/Gallery/6.jpg", label: "First Flight", figNumber: "6" },
+  ];
+
   return (
     <section id="gallery" className="py-12 md:py-20 px-4 bg-blueprint-blue/5">
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Gallery" subtitle="Build photos and flight footage" />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          <ImageBlock label="Build Photo 1" aspectRatio="square" />
-          <ImageBlock label="Build Photo 2" aspectRatio="square" />
-          <ImageBlock label="Build Photo 3" aspectRatio="square" />
-          <ImageBlock label="Flight Photo 1" aspectRatio="square" />
-          <ImageBlock label="Flight Photo 2" aspectRatio="square" />
-          <ImageBlock label="Flight Photo 3" aspectRatio="square" />
+          {galleryImages.map((image, index) => (
+            <ImageBlock 
+              key={index}
+              src={image.src}
+              label={image.label}
+              figNumber={image.figNumber}
+              aspectRatio="3/4"
+            />
+          ))}
         </div>
       </div>
     </section>
