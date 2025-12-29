@@ -7,15 +7,12 @@ export default function WhyIBuiltThisSection() {
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Why I Built This" subtitle="Project motivation and objectives" />
         <TextBlock>
-            <p className="mb-4">
-            This project started as a stubborn childhood dream I never got to touch. I couldn&apos;t afford the cool stuff back then, so now I&apos;m giving that kid version of me what he always wanted, but in a way that feels more meaningful; building it myself instead of pulling a perfect toy out of a box.
-            </p>
-            <p className="mb-4">
-            It&apos;s part nostalgia, part challenge. I wanted to push myself into hardware, into something real and hands-on, where mistakes have weight and learning comes from trial, error, and a bit of reckless curiosity. A new hobby born from the classic rule of <em>fuck around and find out</em>.
-            </p>
-            <p>
-            Simple goal: bring a childhood dream to life with my own hands, and watch it soar.
-            </p>
+          <p className="mb-4">
+            This started as a stubborn childhood dream I couldn&apos;t afford back then. Now I&apos;m giving that kid what he always wanted, but building it myself instead of pulling a perfect toy out of a box.
+          </p>
+          <p>
+            Part nostalgia, part challenge. The more you fuck around, the more you found out. Simple goal: bring a dream to life with my own hands and watch it soar.
+          </p>
         </TextBlock>
       </div>
     </section>
