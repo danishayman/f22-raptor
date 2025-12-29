@@ -6,7 +6,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const sections = [
-    { id: "home", label: "Home" },
+    { id: "hero", label: "Home" },
     { id: "why-i-built-this", label: "Why I Built This" },
     { id: "tools", label: "Tools" },
     { id: "materials", label: "Materials" },
@@ -27,7 +27,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0A1A2F]/95 backdrop-blur-sm border-b border-cyan-400/30">
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
-          <a href="#home" className="text-xl md:text-2xl font-bold text-cyan-400 tracking-wider">
+          <a href="#hero" className="text-xl md:text-2xl font-bold text-cyan-400 tracking-wider">
             F-22 RAPTOR
           </a>
           <div className="hidden lg:flex gap-10">
