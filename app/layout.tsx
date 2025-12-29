@@ -9,7 +9,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DIY RC Plane Guide - Blueprint",
+title: "F-22 Raptor RC Plane",
   description: "A comprehensive technical guide to building your own RC aircraft from scratch",
 };
 
