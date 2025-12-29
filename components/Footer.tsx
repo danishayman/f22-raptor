@@ -98,7 +98,7 @@ export default function Footer() {
         <div className="mt-10 pt-6 border-t border-cyan-400/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-xs text-cyan-200/40 font-mono tracking-wide">
-              © 2024 F-22 RAPTOR RC PROJECT // ALL SPECIFICATIONS SUBJECT TO MODIFICATION
+              © 2025 F-22 RAPTOR RC PROJECT // ALL SPECIFICATIONS SUBJECT TO MODIFICATION
             </p>
             <div className="flex items-center gap-4 text-xs text-cyan-200/40">
               <span className="flex items-center gap-1">

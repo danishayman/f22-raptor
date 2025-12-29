@@ -8,7 +8,7 @@ export default function ModificationsSection() {
         <SectionHeader title="Modifications" subtitle="Upgrades and customizations" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-4 text-xl">Performance Mods</h3>
+            <h3 className="text-cyan-400 font-bold mb-4 text-lg md:text-xl">Performance Mods</h3>
             <p className="mb-3">Suggestions for improving flight characteristics:</p>
             <ul className="list-disc list-inside space-y-2 text-base">
               <li>Upgraded motor and prop</li>
@@ -17,7 +17,7 @@ export default function ModificationsSection() {
             </ul>
           </TextBlock>
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-4 text-xl">Aesthetic Mods</h3>
+            <h3 className="text-cyan-400 font-bold mb-4 text-lg md:text-xl">Aesthetic Mods</h3>
             <p className="mb-3">Visual enhancements:</p>
             <ul className="list-disc list-inside space-y-2 text-base">
               <li>Custom paint schemes</li>

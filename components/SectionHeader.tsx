@@ -10,7 +10,7 @@ export default function SectionHeader({ title, subtitle }: SectionHeaderProps) {
         {title}
       </h2>
       {subtitle && (
-        <p className="text-lg text-cyan-200/60 tracking-wide">{subtitle}</p>
+        <p className="text-base md:text-lg text-cyan-200/60 tracking-wide">{subtitle}</p>
       )}
     </div>
   );

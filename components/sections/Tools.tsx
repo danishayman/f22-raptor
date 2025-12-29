@@ -9,15 +9,15 @@ export default function ToolsSection() {
         <TextBlock>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div>
-              <h4 className="text-cyan-400 font-bold mb-3 text-xl">Cutting Tools</h4>
+              <h4 className="text-cyan-400 font-bold mb-3 text-lg md:text-xl">Cutting Tools</h4>
               <p className="text-base">Utility knife, Scissors, Pliers</p>
             </div>
             <div>
-              <h4 className="text-cyan-400 font-bold mb-3 text-xl">Measuring Tools</h4>
+              <h4 className="text-cyan-400 font-bold mb-3 text-lg md:text-xl">Measuring Tools</h4>
               <p className="text-base">Ruler, Measuring Tape</p>
             </div>
             <div>
-              <h4 className="text-cyan-400 font-bold mb-3 text-xl">Assembly Tools</h4>
+              <h4 className="text-cyan-400 font-bold mb-3 text-lg md:text-xl">Assembly Tools</h4>
               <p className="text-base">Glue gun, Soldering iron, Screwdrivers</p>
             </div>
           </div>

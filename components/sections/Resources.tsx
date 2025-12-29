@@ -9,7 +9,7 @@ export default function ResourcesSection() {
 
         {/* Video Reference */}
         <div className="mb-8">
-          <h3 className="text-cyan-400 font-bold mb-4 text-xl">Video Reference</h3>
+          <h3 className="text-cyan-400 font-bold mb-4 text-lg md:text-xl">Video Reference</h3>
           <div className="relative w-full overflow-hidden rounded-lg border border-cyan-500/30" style={{ paddingBottom: '56.25%' }}>
             <iframe
               className="absolute top-0 left-0 w-full h-full"
@@ -25,14 +25,14 @@ export default function ResourcesSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-4 text-xl">Online Communities</h3>
+            <h3 className="text-cyan-400 font-bold mb-4 text-lg md:text-xl">Online Communities</h3>
             <ul className="list-disc list-inside space-y-2 text-base">
               <li><a href="https://www.flitetest.com/" target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-100 underline transition-colors">FliteTest</a></li>
               <li><a href="https://www.reddit.com/r/RCPlanes" target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-100 underline transition-colors">r/RCPlanes</a></li>
             </ul>
           </TextBlock>
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-4 text-xl">Suppliers</h3>
+            <h3 className="text-cyan-400 font-bold mb-4 text-lg md:text-xl">Suppliers</h3>
             <ul className="list-disc list-inside space-y-2 text-base">
               <li><a href="https://shopee.com.my/alexkeechengfu/" target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-100 underline transition-colors">Uncle Alex RC World</a></li>
               <li><a href="https://www.flitetest.com/" target="_blank" rel="noopener noreferrer" className="text-cyan-300 hover:text-cyan-100 underline transition-colors">Flite Test Store</a></li>

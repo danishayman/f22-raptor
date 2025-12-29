@@ -9,7 +9,7 @@ export default function ElectronicsSection() {
         <SectionHeader title="Electronics" subtitle="Avionics and control systems" />
         <div className="grid grid-cols-1 md:grid-cols-7 gap-6">
           <TextBlock className="md:col-span-3">
-            <h3 className="text-cyan-400 font-bold mb-4 text-xl">Required Components</h3>
+            <h3 className="text-cyan-400 font-bold mb-4 text-lg md:text-xl">Required Components</h3>
             <ul className="list-disc list-inside space-y-2 text-base">
               <li>ESC (Electronic Speed Controller)</li>
               <li>1806/2280kv Brushless Motor</li>

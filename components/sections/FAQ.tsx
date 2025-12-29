@@ -8,19 +8,19 @@ export default function FAQSection() {
         <SectionHeader title="FAQ" subtitle="Frequently asked questions" />
         <div className="space-y-6">
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-3 text-xl">How much does it cost to build?</h3>
+            <h3 className="text-cyan-400 font-bold mb-3 text-lg md:text-xl">How much does it cost to build?</h3>
             <p>Total cost varies, but expect $100-300 depending on components chosen.</p>
           </TextBlock>
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-3 text-xl">How long does the build take?</h3>
+            <h3 className="text-cyan-400 font-bold mb-3 text-lg md:text-xl">How long does the build take?</h3>
             <p>Approximately 10-20 hours spread over a few weekends.</p>
           </TextBlock>
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-3 text-xl">Do I need prior experience?</h3>
+            <h3 className="text-cyan-400 font-bold mb-3 text-lg md:text-xl">Do I need prior experience?</h3>
             <p>No prior experience required, but patience and attention to detail are essential.</p>
           </TextBlock>
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-3 text-xl">What's the flight time?</h3>
+            <h3 className="text-cyan-400 font-bold mb-3 text-lg md:text-xl">What's the flight time?</h3>
             <p>Typically 8-15 minutes depending on battery size and flying style.</p>
           </TextBlock>
         </div>

@@ -8,15 +8,15 @@ export default function TroubleshootingSection() {
         <SectionHeader title="Troubleshooting" subtitle="Common issues and solutions" />
         <div className="space-y-6">
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-3 text-xl">Issue: Plane Won't Take Off</h3>
+            <h3 className="text-cyan-400 font-bold mb-3 text-lg md:text-xl">Issue: Plane Won't Take Off</h3>
             <p>Check motor thrust, weight distribution, and control surface deflection.</p>
           </TextBlock>
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-3 text-xl">Issue: Unstable Flight</h3>
+            <h3 className="text-cyan-400 font-bold mb-3 text-lg md:text-xl">Issue: Unstable Flight</h3>
             <p>Verify CG position, check for warped wings, adjust trim settings.</p>
           </TextBlock>
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-3 text-xl">Issue: Poor Range</h3>
+            <h3 className="text-cyan-400 font-bold mb-3 text-lg md:text-xl">Issue: Poor Range</h3>
             <p>Inspect antenna placement, check receiver battery, verify transmitter settings.</p>
           </TextBlock>
         </div>

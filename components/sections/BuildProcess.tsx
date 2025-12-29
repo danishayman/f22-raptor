@@ -24,7 +24,7 @@ export default function BuildProcessSection() {
 
         <div className="space-y-12">
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 1: Install the Carbon Wing Spar</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 1: Install the Carbon Wing Spar</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ImageBlock src="/Build-Process/1.png" label="Carbon Wing Spar Installation" aspectRatio="square" figNumber="09" />
               <TextBlock>
@@ -52,7 +52,7 @@ export default function BuildProcessSection() {
             </div>
           </div>
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 2: Build the Front Fuselage</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 2: Build the Front Fuselage</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
@@ -78,7 +78,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 3: Install Canopy + Forward Lower Fuse</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 3: Install Canopy + Forward Lower Fuse</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ImageBlock src="/Build-Process/3.png" label="Canopy Installation" aspectRatio="square" figNumber="11" />
               <TextBlock>
@@ -104,7 +104,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 4: Attach the Bottom Fuselage</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 4: Attach the Bottom Fuselage</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
@@ -130,7 +130,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 5: Install Side Engine Intakes</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 5: Install Side Engine Intakes</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ImageBlock src="/Build-Process/5.png" label="Side Engine Intakes" aspectRatio="square" figNumber="13" />
               <TextBlock>
@@ -156,7 +156,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 6: Install Front Intakes</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 6: Install Front Intakes</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
@@ -182,7 +182,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 7: Mount Vertical Tails</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 7: Mount Vertical Tails</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ImageBlock src="/Build-Process/7.png" label="Vertical Tail Installation" aspectRatio="square" figNumber="15" />
               <TextBlock>
@@ -208,7 +208,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 8: Build & Fit the Hatch</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 8: Build & Fit the Hatch</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
@@ -234,7 +234,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 9: Install Motor Mount</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 9: Install Motor Mount</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ImageBlock src="/Build-Process/9.png" label="Motor Mount" aspectRatio="square" figNumber="17" />
               <TextBlock>
@@ -260,7 +260,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 10: Prepare Tailerons (Elevons)</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 10: Prepare Tailerons (Elevons)</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
@@ -286,7 +286,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 11: Install Servos + Linkages</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 11: Install Servos + Linkages</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ImageBlock src="/Build-Process/11.png" label="Servo Installation" aspectRatio="square" figNumber="19" />
               <TextBlock>
@@ -312,7 +312,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 12: Install Electronics</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 12: Install Electronics</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
@@ -338,7 +338,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 13: Paint & Finish</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 13: Paint & Finish</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ImageBlock src="/Build-Process/13.png" label="Painted Aircraft" aspectRatio="square" figNumber="21" />
               <TextBlock>
@@ -364,7 +364,7 @@ export default function BuildProcessSection() {
           </div>
 
           <div>
-            <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 14: Set Center of Gravity</h3>
+            <h3 className="text-cyan-400 text-xl md:text-2xl font-bold mb-6">STEP 14: Set Center of Gravity</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">

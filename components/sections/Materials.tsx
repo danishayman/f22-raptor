@@ -8,7 +8,7 @@ export default function MaterialsSection() {
         <SectionHeader title="Materials" subtitle="Complete bill of materials" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-4 text-xl">Airframe Materials</h3>
+            <h3 className="text-cyan-400 font-bold mb-4 text-lg md:text-xl">Airframe Materials</h3>
             <ul className="list-disc list-inside space-y-2 text-base">
               <li>MPPF Board</li>
               <li>Push Rods</li>
@@ -20,7 +20,7 @@ export default function MaterialsSection() {
             </ul>
           </TextBlock>
           <TextBlock>
-            <h3 className="text-cyan-400 font-bold mb-4 text-xl">Adhesives & Finishing</h3>
+            <h3 className="text-cyan-400 font-bold mb-4 text-lg md:text-xl">Adhesives & Finishing</h3>
             <ul className="list-disc list-inside space-y-2 text-base">
               <li>Hot Glue</li>
               <li>Super glue</li>
