@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import CreatorBadge from "@/components/CreatorBadge";
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
@@ -9,7 +10,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-title: "F-22 Raptor RC Plane",
+  title: "F-22 Raptor RC Plane",
   description: "A comprehensive technical guide to building your own RC aircraft from scratch",
 };
 
@@ -27,6 +28,7 @@ export default function RootLayout({
         className={`${geistMono.variable} antialiased`}
       >
         <Navbar />
+        <CreatorBadge />
         {children}
       </body>
     </html>
