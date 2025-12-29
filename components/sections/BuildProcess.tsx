@@ -7,13 +7,13 @@ export default function BuildProcessSection() {
     <section id="build-process" className="py-12 md:py-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <SectionHeader title="Build Process" subtitle="Step-by-step construction guide" />
-        
+
         <div className="mb-8 p-4 bg-cyan-950/30 border border-cyan-400/30 rounded-lg">
           <p className="text-gray-300">
             You can download and see the full guide here:{" "}
-            <a 
-              href="/quick-build-f-22-v2.pdf" 
-              target="_blank" 
+            <a
+              href="/quick-build-f-22-v2.pdf"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-cyan-400 hover:text-cyan-300 underline"
             >
@@ -26,7 +26,7 @@ export default function BuildProcessSection() {
           <div>
             <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 1: Install the Carbon Wing Spar</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <ImageBlock label="Carbon Wing Spar Installation" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/1.png" label="Carbon Wing Spar Installation" aspectRatio="square" figNumber="09" />
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
                   <li>
@@ -73,14 +73,14 @@ export default function BuildProcessSection() {
                   </li>
                 </ol>
               </TextBlock>
-              <ImageBlock label="Front Fuselage Assembly" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/2.png" label="Front Fuselage Assembly" aspectRatio="square" figNumber="10" />
             </div>
           </div>
 
           <div>
             <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 3: Install Canopy + Forward Lower Fuse</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <ImageBlock label="Canopy Installation" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/3.png" label="Canopy Installation" aspectRatio="square" figNumber="11" />
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
                   <li>
@@ -125,14 +125,14 @@ export default function BuildProcessSection() {
                   </li>
                 </ol>
               </TextBlock>
-              <ImageBlock label="Bottom Fuselage" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/4.png" label="Bottom Fuselage" aspectRatio="square" figNumber="12" />
             </div>
           </div>
 
           <div>
             <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 5: Install Side Engine Intakes</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <ImageBlock label="Side Engine Intakes" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/5.png" label="Side Engine Intakes" aspectRatio="square" figNumber="13" />
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
                   <li>
@@ -177,14 +177,14 @@ export default function BuildProcessSection() {
                   </li>
                 </ol>
               </TextBlock>
-              <ImageBlock label="Front Intakes" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/6.png" label="Front Intakes" aspectRatio="square" figNumber="14" />
             </div>
           </div>
 
           <div>
             <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 7: Mount Vertical Tails</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <ImageBlock label="Vertical Tail Installation" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/7.png" label="Vertical Tail Installation" aspectRatio="square" figNumber="15" />
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
                   <li>
@@ -229,14 +229,14 @@ export default function BuildProcessSection() {
                   </li>
                 </ol>
               </TextBlock>
-              <ImageBlock label="Hatch Assembly" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/8.png" label="Hatch Assembly" aspectRatio="square" figNumber="16" />
             </div>
           </div>
 
           <div>
             <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 9: Install Motor Mount</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <ImageBlock label="Motor Mount" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/9.png" label="Motor Mount" aspectRatio="square" figNumber="17" />
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
                   <li>
@@ -281,14 +281,14 @@ export default function BuildProcessSection() {
                   </li>
                 </ol>
               </TextBlock>
-              <ImageBlock label="Taileron Setup" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/10.png" label="Taileron Setup" aspectRatio="square" figNumber="18" />
             </div>
           </div>
 
           <div>
             <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 11: Install Servos + Linkages</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <ImageBlock label="Servo Installation" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/11.png" label="Servo Installation" aspectRatio="square" figNumber="19" />
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
                   <li>
@@ -333,14 +333,14 @@ export default function BuildProcessSection() {
                   </li>
                 </ol>
               </TextBlock>
-              <ImageBlock label="Electronics Layout" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/12.png" label="Electronics Layout" aspectRatio="square" figNumber="20" />
             </div>
           </div>
 
           <div>
             <h3 className="text-cyan-400 text-2xl font-bold mb-6">STEP 13: Paint & Finish</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <ImageBlock label="Painted Aircraft" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/13.png" label="Painted Aircraft" aspectRatio="square" figNumber="21" />
               <TextBlock>
                 <ol className="list-decimal list-inside space-y-3">
                   <li>
@@ -385,7 +385,7 @@ export default function BuildProcessSection() {
                   </li>
                 </ol>
               </TextBlock>
-              <ImageBlock label="Center of Gravity" aspectRatio="square" />
+              <ImageBlock src="/Build-Process/14.png" label="Center of Gravity" aspectRatio="square" figNumber="22" />
             </div>
           </div>
         </div>
