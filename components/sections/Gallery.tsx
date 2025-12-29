@@ -9,6 +9,9 @@ export default function GallerySection() {
     { src: "/Gallery/4.jpg", label: "Complete Setup", figNumber: "25" },
     { src: "/Gallery/5.jpg", label: "Simulator Training", figNumber: "25" },
     { src: "/Gallery/6.jpg", label: "First Flight", figNumber: "26" },
+    { src: "/Gallery/7.jpg", label: "Decoration Taping", figNumber: "27" },
+    { src: "/Gallery/8.jpg", label: "Minden Flight Test", figNumber: "28" },
+    { src: "/Gallery/9.jpg", label: "Morning Flight", figNumber: "29" },
   ];
 
   return (
